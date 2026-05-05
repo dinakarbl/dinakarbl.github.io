@@ -230,10 +230,7 @@ h2 {
 
 /* ── ABOUT ── */
 .about-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  align-items: start;
+  max-width: 640px;
 }
 
 .about-text p {
