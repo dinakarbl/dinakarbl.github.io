@@ -13,7 +13,7 @@ function useReveal() {
   useEffect(() => {
     const els = document.querySelectorAll('.reveal')
     const observer = new IntersectionObserver(
-      (entries) => {
+      (entries) => { 
         entries.forEach((entry, i) => {
           if (entry.isIntersecting) {
             setTimeout(() => entry.target.classList.add('visible'), i * 80)
