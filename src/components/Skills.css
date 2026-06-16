@@ -5,10 +5,7 @@
 }
 
 .skill-group {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 3px;
-  padding: 1.4rem;
+  padding: 0.5rem 0;
 }
 
 .skill-group__title {

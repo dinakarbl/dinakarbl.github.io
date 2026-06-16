@@ -95,7 +95,7 @@ export const skills = [
   },
   {
     group: 'Machine Learning & AI',
-    items: ['scikit-learn', 'OpenCV', 'pandas', 'NumPy', 'Feature Engineering', 'Model Evaluation', 'LLM Integration', 'Prompt Engineering'],
+    items: ['scikit-learn', 'pandas', 'NumPy', 'Feature Engineering', 'Model Evaluation', 'LLM Integration', 'Prompt Engineering'],
   },
   {
     group: 'Web Technologies',
