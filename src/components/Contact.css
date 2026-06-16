@@ -1,0 +1,16 @@
+.contact-inner { text-align: center; }
+.contact-inner .section-title { margin-bottom: 1rem; }
+
+.contact-sub {
+  color: var(--muted2);
+  font-size: 0.98rem;
+  max-width: 480px;
+  margin: 0 auto 2rem;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}

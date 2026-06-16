@@ -1,0 +1,56 @@
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.about-text p {
+  color: var(--muted2);
+  margin-bottom: 1.1rem;
+  font-size: 0.98rem;
+}
+
+.about-text p span { color: var(--text); font-weight: 400; }
+
+.about-edu__label {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  margin-bottom: 1.25rem;
+}
+
+.edu-item {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.edu-item:first-of-type { border-top: 1px solid var(--border); }
+
+.edu-school {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
+.edu-degree {
+  font-size: 0.85rem;
+  color: var(--muted2);
+  margin-top: 0.2rem;
+}
+
+.edu-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.4rem;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+
+.edu-gpa { color: var(--accent); }
+
+@media (max-width: 680px) {
+  .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+}
