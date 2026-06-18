@@ -9,6 +9,14 @@ export const projects = [
   },
   {
     num: '02',
+    title: 'Penalty Shootout Game',
+    desc: 'Interactive football penalty game built with TypeScript and Vite. Test your shooting skills against a goalkeeper — pick your spot and take the shot.',
+    stack: ['TypeScript', 'Vite', 'CSS'],
+    github: 'https://github.com/dinakarbl/penalty-shootout-game',
+    demo: 'https://penalty-shootout-game-seven.vercel.app/',
+  },
+  {
+    num: '03',
     title: 'Music Recommender System',
     desc: 'Content-based music recommendation engine using multi-dimensional audio features (energy, tempo, valence, danceability, acousticness). Implements weighted scoring with three configurable ranking modes — balanced, genre-first, energy-first — and a diversity penalty to reduce artist/genre repetition in top-N results.',
     stack: ['Python', 'Feature Engineering', 'Recommender Systems'],
@@ -16,7 +24,7 @@ export const projects = [
     demo: null,
   },
   {
-    num: '03',
+    num: '04',
     title: 'Real-Time AI Personal Trainer',
     desc: 'Computer vision app that detects and corrects exercise form in real time using pose estimation on live user data. Built with a Flask backend and OpenCV for frame-by-frame processing.',
     stack: ['Python', 'Flask', 'OpenCV', 'ML'],
@@ -24,7 +32,7 @@ export const projects = [
     demo: null,
   },
   {
-    num: '04',
+    num: '05',
     title: 'Used Cars Price Prediction',
     desc: 'Compared Linear Regression and Random Forest Regressor models for car price prediction. Applied EDA to surface key pricing drivers and evaluate model tradeoffs.',
     stack: ['Python', 'scikit-learn', 'pandas'],
@@ -32,7 +40,7 @@ export const projects = [
     demo: null,
   },
   {
-    num: '05',
+    num: '06',
     title: 'ASU SAILS Record Automation',
     desc: 'Automated Excel record updates for 2000+ student records using Python — replacing a multi-day manual process with a sub-10-second script, eliminating human error completely.',
     stack: ['Python', 'Excel Automation'],
@@ -75,7 +83,7 @@ export const experience = [
 export const skills = [
   {
     group: 'Languages',
-    items: ['Python', 'SQL', 'C++'],
+    items: ['Python', 'SQL', 'C/C++'],
   },
   {
     group: 'Machine Learning & AI',
@@ -83,11 +91,11 @@ export const skills = [
   },
   {
     group: 'Web Technologies',
-    items: ['Angular', 'Flask', 'HTML5', 'CSS3', 'JavaScript', 'React'],
+    items: ['React', 'Angular', 'Flask', 'HTML5', 'CSS3', 'JavaScript'],
   },
   {
     group: 'Tools',
-    items: ['Git / GitHub', 'MySQL', 'Tableau', 'AWS', 'Streamlit', 'Groq API', 'MS Office'],
+    items: ['Git / GitHub', 'MySQL', 'PowerBI', 'Tableau', 'AWS', 'Streamlit', 'Groq API', 'MS Office'],
   },
 ]
 
