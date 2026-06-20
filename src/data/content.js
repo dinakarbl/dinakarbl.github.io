@@ -17,18 +17,18 @@ export const projects = [
   },
   {
     num: '03',
-    title: 'Music Recommender System',
-    desc: 'Content-based music recommendation engine using multi-dimensional audio features (energy, tempo, valence, danceability, acousticness). Implements weighted scoring with three configurable ranking modes — balanced, genre-first, energy-first — and a diversity penalty to reduce artist/genre repetition in top-N results.',
-    stack: ['Python', 'Feature Engineering', 'Recommender Systems'],
-    github: 'https://github.com/dinakarbl00/ai110-music_recommender',
+    title: 'Medication Quality Analytics',
+    desc: 'End-to-end healthcare analytics pipeline built on public FDA NDC and CMS hospital data. Includes Python ingestion, data validation, synthetic medication standards generation, DuckDB SQL modeling, and a 4-page Power BI dashboard covering medication standards monitoring, hospital quality reporting, data quality issues, and improvement opportunities.',
+    stack: ['Python', 'DuckDB', 'SQL', 'pandas', 'Power BI'],
+    github: 'https://github.com/dinakarbl/medication_quality_analytics',
     demo: null,
   },
   {
     num: '04',
-    title: 'Real-Time AI Personal Trainer',
-    desc: 'Computer vision app that detects and corrects exercise form in real time using pose estimation on live user data. Built with a Flask backend and OpenCV for frame-by-frame processing.',
-    stack: ['Python', 'Flask', 'OpenCV', 'ML'],
-    github: 'https://github.com/rtsh13/AI-Gym-Trainer',
+    title: 'Music Recommender System',
+    desc: 'Content-based music recommendation engine using multi-dimensional audio features (energy, tempo, valence, danceability, acousticness). Implements weighted scoring with three configurable ranking modes — balanced, genre-first, energy-first — and a diversity penalty to reduce artist/genre repetition in top-N results.',
+    stack: ['Python', 'Feature Engineering', 'Recommender Systems'],
+    github: 'https://github.com/dinakarbl00/ai110-music_recommender',
     demo: null,
   },
   {
@@ -95,7 +95,7 @@ export const skills = [
   },
   {
     group: 'Tools',
-    items: ['Git / GitHub', 'MySQL', 'PowerBI', 'Tableau', 'AWS', 'Streamlit', 'Groq API', 'MS Office'],
+    items: ['Git / GitHub', 'MySQL', 'PowerBI', 'Tableau', 'DuckDB', 'Streamlit', 'Groq API', 'MS Office'],
   },
 ]
 
