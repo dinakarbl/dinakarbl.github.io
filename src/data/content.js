@@ -4,7 +4,7 @@ export const projects = [
     title: 'PawPal+ AI Pet Care Advisor',
     desc: 'Production-grade AI pet care advisor with conversation history, context-aware pet profile prompts, and a confidence scoring system that auto-rejects off-topic queries via guardrails. Achieved 15/15 evaluation harness tests across 5 categories with 89% avg confidence on legitimate inputs and 100% guardrail trigger rate.',
     stack: ['Python', 'Groq API', 'LLaMA 3.3', 'Streamlit', 'LLM Integration'],
-    github: 'https://github.com/dinakarbl00/applied-ai-system-project',
+    github: 'https://github.com/dinakarbl/pawpal-plus',
     demo: 'https://pawpal-plus-axsgn2plvys4jshtkmhk47.streamlit.app/',
   },
   {

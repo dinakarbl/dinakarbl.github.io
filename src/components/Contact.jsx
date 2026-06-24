@@ -12,6 +12,7 @@ export default function Contact() {
           Best reached via email or LinkedIn.
         </p>
         <div className="contact-links reveal">
+          <a href="mailto:dinakarbl444@gmail.com" className="btn btn-primary">dinakarbl444@gmail.com</a>
           <a href="mailto:dbalehon@asu.edu" className="btn btn-primary">dbalehon@asu.edu</a>
           <a href="https://linkedin.com/in/dinakar-b-l" target="_blank" rel="noreferrer" className="btn btn-outline">LinkedIn</a>
           <a href="https://github.com/dinakarbl" target="_blank" rel="noreferrer" className="btn btn-outline">GitHub</a>
