@@ -12,19 +12,21 @@ export default function About() {
         <div className="about-grid">
           <div className="about-text reveal">
             <p>
-              I recently graduated with an <span>M.S. in Data Science from Arizona State University</span> and
-              have 2 years of professional software engineering experience at <span>Amadeus Labs</span>, one of
-              the world's largest travel tech companies.
+              I got into data science because I loved being able to take a messy,
+              sprawling dataset and actually tell a story from it, something that made
+              sense to engineers and non-technical folks alike. Then AI came along and
+              it just clicked. As a CS grad who's always loved making computers do the
+              heavy lifting, watching AI handle the mundane and repetitive stuff while
+              we focus on the interesting problems felt like the natural next step.
             </p>
             <p>
-              I'm drawn to the full arc of a data problem — from raw, messy data all the way to a model or
-              system that actually does something useful. My work tends to live at the overlap of{' '}
-              <span>machine learning, AI, and data science</span>, with enough software engineering to ship
-              things properly.
+              I'm most at home with real-world, applied problems. The kind where I can
+              actually build something with my skills to solve it. I like when the
+              problem is messy and the right approach isn't obvious from the start.
             </p>
             <p>
-              I like working on problems that are a little open-ended, where the right approach isn't
-              obvious from the start.
+              Outside of work, you'll find me hanging out with friends, gaming, and on
+              the pitch; I'm a big soccer fan and play whenever I get the chance.
             </p>
           </div>
 

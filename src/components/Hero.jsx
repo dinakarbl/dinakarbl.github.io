@@ -11,8 +11,7 @@ export default function Hero() {
           <span className="hero-name__rest">Balehonniga Lingaraju</span>
         </h1>
         <p className="hero-sub">
-          M.S. Data Science, Arizona State University. I like making sense of messy data —
-          whether that's training models, building pipelines, or shipping software that actually works.
+          M.S. Data Science, Arizona State University. I build AI systems, analytics pipelines, and data-driven software that solve real problems.
         </p>
         <div className="hero-btns">
           <a href="#projects" className="btn btn-primary">View Projects ↓</a>

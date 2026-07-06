@@ -1,6 +1,14 @@
 export const projects = [
   {
     num: '01',
+    title: 'AgentOS — Multi-Agent Research Platform',
+    desc: 'Built a multi-agent research platform where a Planner, Researcher, and Writer agent collaborate to answer questions and accumulate knowledge over time using Cognee\'s graph-vector memory layer. Features parallel researchers via semaphore concurrency, PDF/URL ingestion, session history, domain guardrails, live agent event streaming, and an interactive brain knowledge graph.',
+    stack: ['Python', 'FastAPI', 'Cognee', 'LLM Integration', 'React', 'Multi-Agent'],
+    github: 'https://github.com/dinakarbl/agentos',
+    demo: null,
+  },
+  {
+    num: '02',
     title: 'PawPal+ AI Pet Care Advisor',
     desc: 'Production-grade AI pet care advisor with conversation history, context-aware pet profile prompts, and a confidence scoring system that auto-rejects off-topic queries via guardrails. Achieved 15/15 evaluation harness tests across 5 categories with 89% avg confidence on legitimate inputs and 100% guardrail trigger rate.',
     stack: ['Python', 'Groq API', 'LLaMA 3.3', 'Streamlit', 'LLM Integration'],
@@ -8,7 +16,7 @@ export const projects = [
     demo: 'https://pawpal-plus-axsgn2plvys4jshtkmhk47.streamlit.app/',
   },
   {
-    num: '02',
+    num: '03',
     title: 'Penalty Shootout Game',
     desc: 'Interactive football penalty game built with TypeScript and Vite. Test your shooting skills against a goalkeeper — pick your spot and take the shot.',
     stack: ['TypeScript', 'Vite', 'CSS'],
@@ -16,7 +24,7 @@ export const projects = [
     demo: 'https://penalty-shootout-game-seven.vercel.app/',
   },
   {
-    num: '03',
+    num: '04',
     title: 'Medication Quality Analytics',
     desc: 'End-to-end healthcare analytics pipeline built on public FDA NDC and CMS hospital data. Includes Python ingestion, data validation, synthetic medication standards generation, DuckDB SQL modeling, and a 4-page Power BI dashboard covering medication standards monitoring, hospital quality reporting, data quality issues, and improvement opportunities.',
     stack: ['Python', 'DuckDB', 'SQL', 'pandas', 'Power BI'],
@@ -24,7 +32,7 @@ export const projects = [
     demo: null,
   },
   {
-    num: '04',
+    num: '05',
     title: 'Music Recommender System',
     desc: 'Content-based music recommendation engine using multi-dimensional audio features (energy, tempo, valence, danceability, acousticness). Implements weighted scoring with three configurable ranking modes — balanced, genre-first, energy-first — and a diversity penalty to reduce artist/genre repetition in top-N results.',
     stack: ['Python', 'Feature Engineering', 'Recommender Systems'],
@@ -32,7 +40,7 @@ export const projects = [
     demo: null,
   },
   {
-    num: '05',
+    num: '06',
     title: 'Used Cars Price Prediction',
     desc: 'Compared Linear Regression and Random Forest Regressor models for car price prediction. Applied EDA to surface key pricing drivers and evaluate model tradeoffs.',
     stack: ['Python', 'scikit-learn', 'pandas'],
@@ -40,7 +48,7 @@ export const projects = [
     demo: null,
   },
   {
-    num: '06',
+    num: '07',
     title: 'ASU SAILS Record Automation',
     desc: 'Automated Excel record updates for 2000+ student records using Python — replacing a multi-day manual process with a sub-10-second script, eliminating human error completely.',
     stack: ['Python', 'Excel Automation'],
@@ -75,7 +83,7 @@ export const experience = [
     role: 'Software Engineer Intern',
     location: 'Bangalore, India',
     bullets: [
-      'Designed and built a Flask + Angular reporting app, enabling non-technical users to generate custom reports without SQL — significantly reducing ad hoc engineering requests.',
+      'Designed and built a Flask backend + Angular frontend reporting app, enabling non-technical users to generate custom reports without writing SQL, reducing ad hoc engineering requests significantly.',
     ],
   },
 ]
@@ -95,7 +103,7 @@ export const skills = [
   },
   {
     group: 'Tools',
-    items: ['Git / GitHub', 'MySQL', 'PowerBI', 'Tableau', 'DuckDB', 'Streamlit', 'Groq API', 'MS Office'],
+    items: ['Git / GitHub','FastAPI', 'MySQL', 'PowerBI', 'Tableau', 'DuckDB', 'Streamlit', 'Groq API', 'MS Office'],
   },
 ]
 
