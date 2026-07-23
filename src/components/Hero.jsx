@@ -14,7 +14,7 @@ export default function Hero() {
           M.S. Data Science, Arizona State University. I build AI systems, analytics pipelines, and data-driven software that solve real problems.
         </p>
         <div className="hero-btns">
-          <a href="/Dinakar_BL_resume.pdf" className="btn btn-primary">Resume ↓</a>
+          <a href="/Dinakar_BL_resume.pdf" download className="btn btn-primary">Resume ↓</a>
           <a href="#projects" className="btn btn-outline">View Projects</a>
           <a href="#contact" className="btn btn-outline">Let's Connect</a>
         </div>
